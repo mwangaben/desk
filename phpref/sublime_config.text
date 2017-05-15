@@ -1,0 +1,20 @@
+[
+	{ "keys": ["super+e"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["super+x"], "command": "expand_fqcn"},
+	{ "keys": ["super+i"], "command": "find_use"},
+	{ "keys": ["super+p"], "command": "insert_php_constructor_property"},
+	{ "keys": ["super+ctrl+t"], "command": "simple_php_unit" },
+	{ "keys": ["shift+ctrl+f"], "command": "phpspec_example" },
+	{ "keys": ["super+ctrl+m"], "command": "simple_php_unit",
+        "args": {
+            "params": true
+        } },
+    {
+    "keys": ["super+shift+r"], "command": "browser_refresh", "args": {
+      "auto_save": true,
+      "delay": 0.0,
+      "activate": true,
+      "browsers" : ["chrome"]
+    }
+  }
+]
